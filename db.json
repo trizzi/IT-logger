@@ -1,43 +1,47 @@
 {
-    "logs": [
- {
-     "id":1,
-     "message":"Changed harddrive on workstation 007",
-     "attention": false,
-     "date": "03-02-21",
-     "tech": "sam li"
- },
- {
-     "id":2,
-     "message":"Server down on workstation 007",
-     "attention": true,
-     "date": "07-02-21",
-     "tech": "PJ"
- },
- {
-     "id":3,
-     "message":"Changed harddrive on workstation 007",
-     "attention": false,
-     "date": "03-02-21",
-     "tech": "sam li"
- }
-],
-
-"techs": [
-{
-    "id":1,
-    "firstName": "John",
-    "lastName": "Doe"
-},
-{
-    "id":2,
-    "firstName": "Sam",
-    "lastName": "Smit"
-},
-{
-    "id":3,
-    "firstName": "P",
-    "lastName": "J"
-}
-]
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed harddrive on workstation 007",
+      "attention": false,
+      "date": "03-02-21",
+      "tech": "sam li"
+    },
+    {
+      "id": 2,
+      "message": "Server down on workstation 007",
+      "attention": true,
+      "date": "07-02-21",
+      "tech": "PJ"
+    },
+    {
+      "id": 3,
+      "message": "Changed harddrive on workstation 007",
+      "attention": false,
+      "date": "03-02-21",
+      "tech": "sam li"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smit"
+    },
+    {
+      "id": 3,
+      "firstName": "P",
+      "lastName": "J"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Smith",
+      "id": 4
+    }
+  ]
 }
