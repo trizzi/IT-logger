@@ -8,15 +8,18 @@ import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
 import TechListModal from './components/techs/TechListModal';
+import { Provider } from 'react-redux';
+import store from './store';
 
 import './App.css';
 
-const App = () => {
+const App = () => { 
 	useEffect(() => {
 		// initializes materialize js
 		M.AutoInit();
 	});
 	return (
+		<Provider store={store}>
 		<div className='App'>
 			<Searchbar />
 			<div className="container">
@@ -27,7 +30,8 @@ const App = () => {
 				<TechListModal />
 				<Logs />
 			</div>
-		</div>
+			</div>
+			</Provider>
 	);
 };
 
