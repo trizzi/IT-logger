@@ -13,6 +13,13 @@
       "tech": "Sam Smith",
       "date": "2021-11-18T08:25:22.253Z",
       "id": 2
+    },
+    {
+      "message": "server down in workstation 0055",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-11-18T13:52:19.788Z",
+      "id": 3
     }
   ],
   "techs": [
