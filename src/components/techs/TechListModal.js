@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import TechItem from './TechItem';
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
