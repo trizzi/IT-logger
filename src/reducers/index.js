@@ -3,5 +3,5 @@ import logReducer from './logReducer';
 
  
 export default combineReducers({
-    log:logReducer
+    log : logReducer
 })

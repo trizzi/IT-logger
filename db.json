@@ -2,24 +2,17 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed harddrive on workstation 007",
+      "message": "Server fixed on workstation 004",
       "attention": false,
-      "date": "03-02-21",
-      "tech": "sam li"
+      "tech": "Sam Smith",
+      "date": "2021-11-18T08:25:57.617Z"
     },
     {
-      "id": 2,
-      "message": "Server down on workstation 007",
-      "attention": true,
-      "date": "07-02-21",
-      "tech": "PJ"
-    },
-    {
-      "id": 3,
-      "message": "Changed harddrive on workstation 007",
+      "message": "Hard drive fixed on workstation 007",
       "attention": false,
-      "date": "03-02-21",
-      "tech": "sam li"
+      "tech": "Sam Smith",
+      "date": "2021-11-18T08:25:22.253Z",
+      "id": 2
     }
   ],
   "techs": [
